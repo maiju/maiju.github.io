@@ -6,3 +6,68 @@
 	margin-top: 50px;
 	text-indent: -9999px;
 }
+
+:focus {
+	outline: 0;
+}
+
+/*GALLERY WRAP*/
+#wrap {
+  width: 1020px; 
+  margin: 0 auto;
+} 
+li {
+  float:left; 
+  position:relative; 
+  display:inline-block; 
+  width:300px; 
+  height:300px;
+  margin:10px; 
+  padding:10px; 
+  background:#fff; 
+  box-shadow:0 0 5px rgba(0,0,0,.35);
+}
+li div {
+  position:absolute;
+  height:0; 
+  width:280px;
+  background:rgba(0,0,0,.45); 
+  overflow:hidden;
+  bottom:10px; 
+  left:10px;
+  padding: 0 10px;
+  line-height:50px;
+  color:#fff;
+  transition:height 0.5s;
+}
+
+#gallery a img {
+	display: block;
+	-webkit-transition: all 0.5s;
+}
+
+/*Hover effects*/
+li:hover div {
+  height:50px; /*project text*/
+}
+
+#gallery a img:hover {
+	-webkit-filter: none; /*Returns to default state*/
+}
+
+/*Filter styles*/
+.grayscale {-webkit-filter: grayscale(100%);}
+
+/*ABOUT*/
+#about {
+	padding: 30px;
+	border-top: 1px solid #f2f4f5;
+	border-bottom: 1px solid #f2f4f5;
+	background: #f2f2f2;
+}
+
+.about-image {
+	float: left;
+	padding: 5px;
+}
+
