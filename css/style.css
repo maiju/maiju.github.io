@@ -1,3 +1,13 @@
+h1, h2, h3 {
+	font-family: overlock-sc, sans-serif;
+}
+
+body {
+	font-size: 20px;
+	font-family: neuton, serif;
+	background: url("../images/background.png") repeat 0 0 #FAFAFA;
+}
+
 #logo a {
 	float: left;
 	width: 484px;
@@ -12,19 +22,14 @@
 }
 
 /*GALLERY WRAP*/
-#wrap {
-  width: 1020px; 
-  margin: 0 auto;
-} 
 li {
   float:left; 
   position:relative; 
   display:inline-block; 
-  width:300px; 
-  height:300px;
+  width:290px; 
+  height:290px;
   margin:10px; 
-  padding:10px; 
-  background:#fff; 
+  border:5px solid #fff; 
   box-shadow:0 0 5px rgba(0,0,0,.35);
 }
 li div {
@@ -33,8 +38,7 @@ li div {
   width:280px;
   background:rgba(0,0,0,.45); 
   overflow:hidden;
-  bottom:10px; 
-  left:10px;
+  bottom:0px; 
   padding: 0 10px;
   line-height:50px;
   color:#fff;
@@ -59,15 +63,27 @@ li:hover div {
 .grayscale {-webkit-filter: grayscale(100%);}
 
 /*ABOUT*/
+#about-wrapper {
+	background: #87e2bd;
+	border-top: 5px solid #f0f0f0;
+	border-bottom: 5px solid #f0f0f0;
+	margin-top: 50px;
+}
+
 #about {
 	padding: 30px;
-	border-top: 1px solid #f2f4f5;
-	border-bottom: 1px solid #f2f4f5;
-	background: #f2f2f2;
 }
 
 .about-image {
-	float: left;
-	padding: 5px;
+/*	float: left;*/
+	padding: 10px;
 }
 
+.about-image img {
+	width: 250px;
+	border: 5px solid white;
+}
+
+.about-contact h3 {
+	margin-top: 0px;
+}
