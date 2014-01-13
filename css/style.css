@@ -7,32 +7,57 @@ body {
 	font-family: neuton, serif;
 	background: url("../images/background.png") repeat 0 0 #FAFAFA;
 }
+.logo {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
 
-#logo a {
-	float: left;
-	width: 484px;
-	height: 92px;
-	background-image: url("../images/logo.png");
-	margin-top: 50px;
-	text-indent: -9999px;
+.logo a {
+	/*background-image: url("../images/logo.png");
+	margin-top: 50px;*/
+	font-family: fredericka-the-great, sans-serif;
+	/*font-family: chelsea-market, sans-serif;*/
+	/*font-family: codystar, sans-serif;*/
+	/*font-family: cabin-sketch, sans-serif;*/
+	/*font-family: love-ya-like-a-sister, fantasy;*/
+	/*font-family: amatic-sc, sans-serif;*/
+	text-transform:uppercase;
+	color: #87e2bd;
+	font-size: 60px;
+	
+}
+
+.logo a span {
+	color: #000;
+}
+
+.logo a:hover {
+	text-decoration: none;
+	opacity: 0.8;
 }
 
 :focus {
 	outline: 0;
 }
 
+.first-row {
+	margin-bottom: 20px;
+}
+
 /*GALLERY WRAP*/
-li {
-  float:left; 
+.project {
   position:relative; 
   display:inline-block; 
   width:290px; 
-  height:290px;
-  margin:10px; 
+  overflow: hidden;
+  height: 200px;
   border:5px solid #fff; 
   box-shadow:0 0 5px rgba(0,0,0,.35);
+  padding-left: 0px;
+  padding-right: 0px;
 }
-li div {
+
+.project-name {
   position:absolute;
   height:0; 
   width:280px;
@@ -45,17 +70,16 @@ li div {
   transition:height 0.5s;
 }
 
-#gallery a img {
+.project img {
 	display: block;
 	-webkit-transition: all 0.5s;
 }
 
-/*Hover effects*/
-li:hover div {
+.project:hover div{
   height:50px; /*project text*/
 }
 
-#gallery a img:hover {
+.project:hover img {
 	-webkit-filter: none; /*Returns to default state*/
 }
 
