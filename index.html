@@ -16,8 +16,16 @@
 	<script src="http://use.edgefonts.net/advent-pro:n1,n2,n3,n4,n5,n6,n7:all;neuton;overlock-sc.js"></script>
 	<!-- logofontit -->
 	<script src="http://use.edgefonts.net/fredericka-the-great;chelsea-market;codystar;cabin-sketch;love-ya-like-a-sister;amatic-sc.js"></script> 
-	</head>
-  <body>
+	
+	<script>
+		$('#gotohome').click(function() {
+		  $('#myTab a[href="#home"]').tab('show');
+		});
+	</script>
+	
+</head>
+
+ <body>
   
 <!-- HEADER -->
 	<div id="header">
@@ -27,32 +35,68 @@
 			</div>
 		</div><!-- end container -->
 	</div><!--end header-->
-  
-    <div class="container">
-		<h1>Projects</h1>
-		<div class="row first-row">
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project1.png" class="grayscale" /><div class="project-name">Master's Thesis</div></a>
+
+<div class="container">
+	<div class="tab-content" id="myTab">
+		<div id="home" class="tab-pane active">
+			<h1>Projects</h1>
+			<div class="row first-row">
+				<div class="col-md-4">
+					<a href="#thesis" class="project" data-toggle="tab"><img src="images/thesis-small.png" class="grayscale" /><div class="project-name">Master's Thesis</div></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#tulevala" class="project" data-toggle="tab"><img src="images/tulevala-small.png" class="grayscale" /><div class="project-name">Tulevala</div></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#info" class="project" data-toggle="tab"><img src="images/info-small.png" class="grayscale" /><div class="project-name">Information Visualization</div></a>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project2.png" class="grayscale" /><div class="project-name">Project 2</div></a>
-			</div>
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project3.png" class="grayscale" /><div class="project-name">Project 3</div></a>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#suns" class="project" data-toggle="tab"><img src="images/suns-small.png" class="grayscale" /><div class="project-name">Suns</div></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#tuntuq" class="project" data-toggle="tab"><img src="images/tuntuq-small.png" class="grayscale" /><div class="project-name">TuntuQ</div></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#bug" class="project" data-toggle="tab"><img src="images/bug-small.png" class="grayscale" /><div class="project-name">Fling a bug</div></a>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project4.png" class="grayscale" /><div class="project-name">Project 4</div></a>
-			</div>
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project5.png" class="grayscale" /><div class="project-name">Project 5</div></a>
-			</div>
-			<div class="col-md-4">
-				<a href="" class="project"><img src="images/project6.png" class="grayscale" /><div class="project-name">Project 6</div></a>
+	
+		<div id="thesis" class="tab-pane">
+			<div class="col-md-12">
+				<p>Pööö</p>
+				<button type="button" class="btn btn-default" href="#">Back</button>
 			</div>
 		</div>
-    </div><!--end container-->
+		<div id="tulevala" class="tab-pane">
+			<div class="col-md-12">
+				<p>Prfff</p>
+			</div>
+		</div>
+		<div id="info" class="tab-pane">
+			<div class="col-md-12">
+				<p>asda</p>
+			</div>
+		</div>
+		<div id="suns" class="tab-pane">
+			<div class="col-md-12">
+				<p>sadö</p>
+			</div>
+		</div>
+		<div id="tuntuq" class="tab-pane">
+			<div class="col-md-12">
+				<p>Pöllllöö</p>
+			</div>
+		</div>
+		<div id="bug" class="tab-pane">
+			<div class="col-md-12">
+				<p>Padasö</p>
+			</div>
+		</div>
+	</div>
+</div><!--end container-->
 
 <!-- ABOUT-->
 <div id="about-wrapper">
@@ -69,8 +113,9 @@
 			
 			<div class="col-md-3 about-contact">
 				<h3>Contact me!</h3>
-				<p><i class="fa fa-envelope-o fa-fw"></i>  email@me.com <br />
-					<i class="fa fa-linkedin fa-fw"></i> linkedin/maijutompuri
+				<p>
+					<i class="fa fa-envelope-o fa-fw"></i>  email@me.com <br />
+					 <i class="fa fa-linkedin fa-fw"></i> <a href="fi.linkedin.com/in/maijutompuri/">maijutompuri </a>
 				</p>
 			</div><!-- end span4 -->
 		</div><!-- end row -->
