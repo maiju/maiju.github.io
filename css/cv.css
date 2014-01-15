@@ -1,5 +1,6 @@
-h1, h2 {
+h1 {
 	font-family: overlock-sc, sans-serif;
+	font-size: 50px;
 }
 
 body {
@@ -10,7 +11,9 @@ body {
 
 
 h2 {
+	font-family: overlock-sc, sans-serif;
 	text-transform: uppercase;
+	padding-top: 20px;
 }
 
 h3 {
