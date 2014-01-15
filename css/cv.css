@@ -1,0 +1,55 @@
+h1, h2 {
+	font-family: overlock-sc, sans-serif;
+}
+
+body {
+	font-size: 18px;
+	font-family: neuton, serif;
+	background: url("../images/background.png") repeat 0 0 #FAFAFA;
+}
+
+
+h2 {
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: neuton, serif;
+	margin-bottom: -3px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+#cv {
+	background: #fff;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+}
+
+.cv-img  img{
+	margin-top: 30px;
+	width: 200px;
+	float: right;
+	
+}
+
+td {
+	width: 100px;
+	padding-right: 80px;
+}
+.lan {
+	font-weight:bold;
+	padding-right: 0px;
+}
+
+.sec{
+	width: 800px;
+}
+
+.first{
+	width: 250px;
+	font-weight:bold;
+	padding-right: 20px;
+}
