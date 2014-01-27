@@ -83,6 +83,15 @@ body {
 
 .grayscale {-webkit-filter: grayscale(100%);}
 
+#projects .close {
+	font-size: 40px;
+	margin-top: -25px;
+}
+
+#projects .modal-header {
+	border-bottom: 0;
+}
+
 .details .row {
 	background: #fff;
 
