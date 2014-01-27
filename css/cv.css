@@ -23,18 +23,38 @@ h3 {
 	font-size: 18px;
 }
 
+#pdf {
+	margin-top: 50px;
+	width: 80%;
+}
+
+.pdf {
+	float: right;
+}
 
 #cv {
 	background: #fff;
-	margin-top: 50px;
+	border-radius: 10px;
+	margin-top: 10px;
 	margin-bottom: 100px;
 	padding-bottom: 50px;
+	width: 80%;
+}
+
+a {
+	color: #212163;
+}
+
+a:hover {
+	color: #212163;
+	text-decoration: underline;
 }
 
 .cv-img  img{
-	margin-top: 30px;
+	top: 25px;
 	width: 200px;
-	float: right;
+	position: absolute;
+	right: 0px;
 	
 }
 

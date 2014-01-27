@@ -13,8 +13,7 @@ body {
 }
 
 .logo a {
-	/*background-image: url("../images/logo.png");
-	margin-top: 50px;*/
+	/*margin-top: 50px;*/
 	font-family: fredericka-the-great, sans-serif;
 	/*font-family: chelsea-market, sans-serif;*/
 	/*font-family: codystar, sans-serif;*/
@@ -75,16 +74,16 @@ body {
 }
 
 .project:hover div{
-  height:50px; /*project text*/
+  height:50px;
 }
 
 .project:hover img {
-	-webkit-filter: none; /*Returns to default state*/
+	-webkit-filter: none;
 }
 
 .grayscale {-webkit-filter: grayscale(100%);}
 
-.details {
+.details .row {
 	background: #fff;
 
 }
@@ -113,15 +112,14 @@ body {
 	opacity: 0.8;
 }
 
-.open img {
-	border: 2px solid #000; 
+.menu {
+	margin-top: 30px;
 }
 
 .t {
 	padding-right: 100px;
 }
 
-/*ABOUT*/
 #about-wrapper {
 	background: #87e2bd;
 	border-top: 5px solid #f0f0f0;
@@ -134,7 +132,6 @@ body {
 }
 
 .about-image {
-/*	float: left;*/
 	padding: 10px;
 }
 
