@@ -7,6 +7,16 @@ body {
 	font-family: neuton, serif;
 	background: url("../images/background.png") repeat 0 0 #FAFAFA;
 }
+
+a {
+	color: #212163;
+}
+
+a:hover {
+	color: #212163;
+	text-decoration: underline;
+}
+
 .logo {
 	padding-top: 50px;
 	padding-bottom: 70px;
