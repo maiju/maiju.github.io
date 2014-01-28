@@ -83,6 +83,12 @@ body {
 
 .grayscale {-webkit-filter: grayscale(100%);}
 
+@media screen and (min-width: 768px) {
+	#projects .modal-dialog {
+		width: 740px;
+	}
+}
+
 #projects .close {
 	font-size: 40px;
 	margin-top: -25px;
@@ -109,6 +115,8 @@ body {
   display:inline-block; 
   overflow: hidden;
   margin-top: 20px;
+	float: right;
+	padding: 10px;
 }
 
 .small img {
