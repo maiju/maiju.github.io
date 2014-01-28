@@ -1,5 +1,9 @@
 h1, h2, h3 {
-	font-family: overlock-sc, sans-serif;
+	font-family: ruluko, sans-serif;
+}
+
+h1, h2 {
+		text-transform: uppercase;
 }
 
 body {
@@ -127,24 +131,7 @@ a:hover {
   margin-top: 20px;
 	float: right;
 	padding: 10px;
-}
-
-.small img {
-	width: 100px;
-	display: block;
-	border: 2px solid #f0f0f0; 
-}
-
-.small:hover img{
-	opacity: 0.8;
-}
-
-.menu {
-	margin-top: 30px;
-}
-
-.t {
-	padding-right: 100px;
+	width: 320px;
 }
 
 #about-wrapper {

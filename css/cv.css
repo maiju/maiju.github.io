@@ -1,6 +1,14 @@
+h1, h2 {
+	font-family: ruluko, sans-serif;
+	text-transform: uppercase;
+
+}
+
 h1 {
-	font-family: overlock-sc, sans-serif;
 	font-size: 50px;
+}
+h2 {
+	padding-top: 20px;
 }
 
 body {
@@ -10,11 +18,7 @@ body {
 }
 
 
-h2 {
-	font-family: overlock-sc, sans-serif;
-	text-transform: uppercase;
-	padding-top: 20px;
-}
+
 
 h3 {
 	font-family: neuton, serif;
@@ -37,7 +41,7 @@ h3 {
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	width: 80%;
 }
 
