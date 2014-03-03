@@ -112,6 +112,14 @@ a:hover {
 	border-bottom: 0;
 }
 
+#projects .modal-body {
+	margin-bottom: 30px;
+}
+
+#projects .modal-body p {
+	margin: 0 0 30px;
+}
+
 .details .row {
 	background: #fff;
 
