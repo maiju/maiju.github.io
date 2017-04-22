@@ -58,9 +58,9 @@ a:hover {
 .cv-img  img{
 	top: 25px;
 	width: 200px;
-	position: absolute;
+	position: relative;
 	right: 0px;
-	
+	height: 300px;
 }
 
 td {
