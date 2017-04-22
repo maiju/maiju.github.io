@@ -1,0 +1,83 @@
+h1, h2 {
+	font-family: ruluko, sans-serif;
+	text-transform: uppercase;
+
+}
+
+h1 {
+	font-size: 50px;
+}
+h2 {
+	padding-top: 20px;
+}
+
+body {
+	font-size: 16px;
+	font-family: open-sans-condensed, sans-serif;
+	background: url("../images/background.png") repeat 0 0 #FAFAFA;
+	font-weight: 200;
+}
+
+
+
+
+h3 {
+	font-family: open-sans-condensed, sans-serif;
+	margin-bottom: -1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#pdf {
+	margin-top: 50px;
+	width: 80%;
+}
+
+.pdf {
+	float: right;
+}
+
+#cv {
+	background: #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	padding-bottom: 20px;
+	width: 80%;
+}
+
+a {
+	color: #212163;
+}
+
+a:hover {
+	color: #212163;
+	text-decoration: underline;
+}
+
+.cv-img  img{
+	top: 25px;
+	width: 200px;
+	position: relative;
+	right: 0px;
+	height: 300px;
+}
+
+td {
+	width: 100px;
+	padding-right: 80px;
+}
+.lan {
+	font-weight:bold;
+	padding-right: 0px;
+}
+
+.sec{
+	width: 800px;
+}
+
+.first{
+	width: 250px;
+	font-weight:bold;
+	padding-right: 20px;
+}
